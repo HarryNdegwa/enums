@@ -20,7 +20,7 @@ public class Enums {
     public static void main(String[] args) {
         System.out.println("Welcome to enums");
 
-        Direction dir = Direction.NORTH;
+        Direction dir = Direction.NORTH; // enums constants are of type enum
 
         System.out.println("The direction is " + dir);
 
